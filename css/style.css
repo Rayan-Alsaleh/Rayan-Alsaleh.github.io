@@ -1,0 +1,79 @@
+
+body {
+    background-image: url("../img/background.jpg") ;
+    background-repeat: no-repeat;
+    font-family: 'Lemonada', cursive;
+    
+}
+
+.logo{
+
+
+    opacity: 0.75;
+    height: 200px;
+    width: 200px;
+    margin: auto;
+    border-radius: 50%;
+}
+
+
+.container {
+    position: relative;
+    width: 450px;
+    margin: 70px auto;
+    animation: myanim 2.3s;
+  }
+
+
+.form-style {
+  background: rgba(255, 255, 255, 0.603);
+  border-radius: 5px;
+  padding: 25px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.33);
+}
+.form-style .header {
+  text-align: center;
+  margin-bottom: 25px;
+}
+.form-style .header {
+  color: #696969;
+}
+
+.example-icon {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: gold;
+}
+.footer {
+  padding:100px;
+  margin-top: -50px;
+  text-align: center;
+}
+/** Button Style **/
+.bton {
+     /* padding: 11px; */
+     display: block;
+     background: rgba(34, 33, 33, 0.822);
+     font-size: 30px;
+     width: 300px;
+     text-align: center;
+     margin-left: -45px;
+     margin-right: auto;
+     color: #e9eded;
+     cursor: pointer;
+     margin-top: 30px;
+     height: 80px;
+     border-radius: 30px;
+     font-family: 'Lemonada', cursive;
+}
+.bton:hover {
+  background: rgba(255, 217, 0, 0.589);
+}
+
+.info{
+
+    color: rgba(46, 45, 45, 0.534);
+    font-size: 10px;
+    text-align: center;
+    
+}
