@@ -1,40 +1,224 @@
-<!DOCTYPE html>
+,<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link href="https://fonts.googleapis.com/css?family=Lemonada&display=swap" rel="stylesheet">
-  <link rel="stylesheet" type="text/css" href="css/style.css">
-  
+ <!-- Required meta tags -->
+ <meta charset="utf-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+ <title>Resume/CV - Rayan AlSaleh</title>
+ <!-- Bootstrap CSS -->
+ <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+     <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+ <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css">
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.6.14/vue.min.js"></script>
+ <!-- Add Web Animations Polyfill :) -->
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/web-animations/2.3.2/web-animations.min.js"></script>
+ <script type="module" src="https://cdn.jsdelivr.net/npm/@proyecto26/animatable-component@1.1.10/dist/animatable-component/animatable-component.esm.js"></script>
+</head>
 
-  <title>وين ناكل ؟ </title>
 </head>
 <body>
- 
-
-  <div class="container">
-    <form class="form-style" action="" method="post">
-      <div class="header">
-        <img class="logo" src="./img/logo.jpg" alt="">
-        <div class="example-icon" >وين ناكل ؟ </div>
+  <div class="wrapper">
+    <div class="intro">
+      <div class="profile">
+        <div class="photo">
+          <img src="img/Personal.jpg"  width="200" height="180">
+        </div>
+        <div class="bio">
+          <h1 class="name">Rayan AlSaleh</h1>
+          <p class="profession">Data Analyst</p>
+        </div>
       </div>
-     
-      <div class="footer">
-       <button class="bton">اقتراح</button>
+      <div class="intro-section about">
+        <h1 class="title">about me</h1>
+        <p class="paragraph">
+          Hi everyone, I am a Data Analyst and Python developer, graduated from Shaqra University, bachelor's degree in Computer Science (CS). I recently try my
+          best to develop my skills on Data Analyst, Python language and how to analyze and visualize data in Python.
+        </p>
+        <p class="paragraph">
+          Based on my development in Python language, I develop my first LIVE 'real-time' dashboard connected directly to (API) server.
+          at Ministry of Health (MOH), for National Health
+          Command Center (NHCC).
+        </p>
       </div>
-      <div class="info">By Rayan Alsaleh | Rayan.Alsaleh.0@gmail.com</div>
+      <div class="intro-section contact">
+        <h1 class="title">Contact</h1>
+        <div class="info-section">
+          <i class="fas fa-phone"></i>
+          <span>+966 551090233</span>
+        </div>
+        <div class="info-section">
+          <i class="fas fa-map-marker-alt"></i>
+          <span>Rayan.Alsaleh.0@gmail.com</span>
+        </div>
+        <div class="info-section link">
+          <i class="fab fa-facebook"></i>
+          <a target="_blank" rel="author" href="https://www.linkedin.com/in/rayan-alsaleh-1b6b07186">
+            <span>My Linkedin</span>
+          </a>
+        </div>
+        <div class="info-section">
+          <i class="fas fa-paper-plane"></i>
+          <span>Riyadh</span>
+        </div>
+      </div>
+      <div class="intro-section follow">
+        <h1 class="title">My Works</h1>
+        <div class="info-section link">
+          <i class="fab fa-github"></i>
+          <a target="_blank" rel="author" href="https://rayan-alsaleh.github.io/BestSportBrands/">
+            <span>My Front-End Website </span>
+          </a>
+        </div>
+        <div class="info-section link">
+          <i class="fab fa-codepen"></i>
+          <a target="_blank" rel="author" href="https://www.linkedin.com/posts/rayan-alsaleh-1b6b07186_python-programming-aeqaepaeyaetaewaeu-activity-6912065835775750144--oGj?utm_source=linkedin_share&utm_medium=ios_app">
+            <span>My Live Dashboard using Python Dash</span>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="detail">
+      <div class="detail-section edu">
+        <div class="detail-title">
+          <div class="title-icon">
+            <i class="fas fa-user-graduate"></i>
+          </div>
+          <span>Eduation & Experiences</span>
+        </div>
+        <div class="detail-content">
+          <div class="timeline-block">
+            <h1>Department of Computer Science</h1>
+            <p>Shaqra University</p>
+            <time>2015 - 2019</time>
+          </div>
+        </div>
+        <div class="detail-content">
+          <div class="timeline-block">
+            <h1>Post Graduate Program in Data Analytics</h1>
+            <p>Purdue University </p>
+            <time>Nov-2021 - Present</time>
+          </div>
+        </div>
+        <div class="detail-content">
+          <div class="timeline-block">
+            <h1>Misk Academy</h1>
+            <p>General Assembly Front end development (HTML, CSS, JS)</p>
+            <time>Jul-2019 - Sep-2019</time>
+          </div>
+        </div>
+        <div class="detail-content">
+          <div class="timeline-block">
+            <h1>Data Analyst</h1>
+            <p>Ascend Healthcare Solutions</p>
+            <time>Nov-2020 - Present</time>
+          </div>
+        </div>
+      </div>
+      <div class="detail-section pg-skill">
+        <div class="detail-title">
+          <div class="title-icon">
+            <i class="fas fa-laptop-code"></i>
+          </div>
+          <span>Skills</span>
+        </div>
+        <div class="detail-content">
+          <ul class="pg-list">
+            <li>
+              <span>Python</span>
+              <div class="sb-skeleton">
+                <div class="skillbar" style="--pgbar-length: 90%"></div>
+              </div>
+            </li>
+            <li>
+              <span>Pandas & Numpy</span>
+              <div class="sb-skeleton">
+                <div class="skillbar" style="--pgbar-length: 80%"></div>
+              </div>
+            </li>
+            <li>
+              <span>Plotly</span>
+              <div class="sb-skeleton">
+                <div class="skillbar" style="--pgbar-length: 70%"></div>
+              </div>
+            </li>
+            <li>
+              <span>Data Validation</span>
+              <div class="sb-skeleton">
+                <div class="skillbar" style="--pgbar-length: 70%"></div>
+              </div>
+            </li>
+            <li>
+              <span>Data Visualization</span>
+              <div class="sb-skeleton">
+                <div class="skillbar" style="--pgbar-length: 80%"></div>
+              </div>
+            </li>
+            <li>
+              <span>JSON</span>
+              <div class="sb-skeleton">
+                <div class="skillbar" style="--pgbar-length: 40%"></div>
+              </div>
+            </li>
+            <li>
+              <span>SQL</span>
+              <div class="sb-skeleton">
+                <div class="skillbar" style="--pgbar-length: 30%"></div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="detail-section tool-skill">
+        <div class="detail-title">
+          <div class="title-icon">
+            <i class="fas fa-tools"></i>
+          </div>
+          <span>Developement Tools</span>
+        </div>
+        <div class="detail-content">
+          <ul class="tool-list">
+            <li>
+              <svg viewbox="0 0 100 100">
+                <circle cx="50" cy="50" r="45"></circle>
+                <circle class="cbar" cx="50" cy="50" r="45" style="--percent: 0.75"></circle>
+              </svg>
+              <span class="tl-name">Spyder</span>
+              <span class="tl-exp">75%</span>
+            </li>
+            <li>
+              <svg viewbox="0 0 100 100">
+                <circle cx="50" cy="50" r="45"></circle>
+                <circle class="cbar" cx="50" cy="50" r="45" style="--percent: 0.8"></circle>
+              </svg>
+              <span class="tl-name">Pycharm</span>
+              <span class="tl-exp">80%</span>
+            </li>
+            <li>
+              <svg viewbox="0 0 100 100">
+                <circle cx="50" cy="50" r="45"></circle>
+                <circle class="cbar" cx="50" cy="50" r="45" style="--percent: 0.7"></circle>
+              </svg>
+              <span class="tl-name">Excel</span>
+              <span class="tl-exp">70%</span>
+            </li>
+            <li>
+              <svg viewbox="0 0 100 100">
+                <circle cx="50" cy="50" r="45"></circle>
+                <circle class="cbar" cx="50" cy="50" r="45" style="--percent: 0.74"></circle>
+              </svg>
+              <span class="tl-name">Power BI</span>
+              <span class="tl-exp">74%</span>
+            </li>
+          </ul>
+        </div>
   
-    </form>
-  </div>
-  <!-- partial -->
-    
+      </div>
+    <!-- Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+    <script src='js.js'></script>
+    <script src="https://code.jquery.com/jquery-migrate-1.4.1.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
 
-
-
-  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
-  <script src="https://code.jquery.com/jquery-migrate-1.4.1.min.js"></script>
-<script src='./js/react.js'></script>
 
 </body>
 </html>
