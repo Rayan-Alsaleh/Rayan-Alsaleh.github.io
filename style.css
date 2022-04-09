@@ -111,6 +111,8 @@ body {
 .link a {
   text-decoration: none;
   color: inherit;
+  text-decoration: underline;     
+  text-decoration-color: #072c3a;
 }
 
 .link span::after {
